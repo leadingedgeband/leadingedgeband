@@ -1,0 +1,96 @@
+body {
+	background-color: #333333;
+}
+
+.content{
+	width:970px;
+	margin: 0 auto;
+	text-align:center;
+	background-color:#4169E1;
+}
+
+#header {
+	width:970px;
+	margin:0 auto;
+	padding-top:418px;
+	background-image:url("https://dl.dropboxusercontent.com/s/wzf44r553z8gdjt/banner.JPG");
+	background-image:no-repeat;
+}
+
+#menu ul{
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+}
+
+#menu li {
+	width:193px;
+	height:45px;
+	background-color:#888;
+	border-left:1px solid black;
+	padding-top: 22px;
+	text-align:center;
+	position:relative;
+	font-size:20px;
+	font-family: "Arial Rounded MT Bold", Arial, San-serif; 
+	float:left;
+}
+
+#menu li a {
+	text-decoration:none;
+	color:#FFFFFF;
+}
+
+#menu li:hover {
+	background-color: #000;
+}
+
+#menu li:hover ul {
+	visibility:visible;
+}
+
+#menu li ul  {
+	visibility:hidden;
+	padding-top: 23px;
+}
+
+
+
+
+
+
+
+#scroller  {
+	width: 600px;
+	height: 400px;
+	margin: 0 auto;
+	position: relative;
+	top: 207px;
+	padding-top: 300px;
+}
+
+#scroller .innerScrollArea {
+	overflow: hidden;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+
+#scroller ul {
+        margin: 0;
+		padding: 0;
+        position: relative;
+}
+
+#scroller li {
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+        position: absolute;
+}
+
+#pictures {
+	list-style-type: none;
+}

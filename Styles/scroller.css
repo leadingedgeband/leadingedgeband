@@ -23,3 +23,13 @@
         list-style-type: none;
         position: absolute;
 }
+
+
+#scroller  {
+	width: 600px;
+	height: 400px;
+	margin: 0 auto;
+	position: relative;
+	top: 207px;
+	padding-top: 300px;
+}

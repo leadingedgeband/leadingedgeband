@@ -1,0 +1,9 @@
+.imgStyle {
+	height: 100px;
+	width: 150px;
+	border: 3px solid grey;
+}
+
+#mainImage {
+	border: 3px solid #FFF123;
+}

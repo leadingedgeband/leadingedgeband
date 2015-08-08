@@ -54,43 +54,33 @@ body {
 	padding-top: 23px;
 }
 
-
-
-
-
-
-
-#scroller  {
-	width: 600px;
-	height: 400px;
-	margin: 0 auto;
-	position: relative;
-	top: 207px;
-	padding-top: 300px;
+#footer {
+	border: 2px solid #FFF123;
+	text-align: center;
+	color:#FFFFFF;
 }
 
-#scroller .innerScrollArea {
-	overflow: hidden;
-	position: absolute;
-	left: 0;
-	right: 0;
-	top: 0;
-	bottom: 0;
+#bio {
+	font-family: "Arial Rounded MT", Arial, San-serif; 
+	text-align: left;
+	color:#D8D8D8;
 }
 
-#scroller ul {
-        margin: 0;
-		padding: 0;
-        position: relative;
+#bio img {
+	margin-right:10px;
+	float: right;
+	border: 3px solid #FFF123;
 }
 
-#scroller li {
-        padding: 0;
-        margin: 0;
-        list-style-type: none;
-        position: absolute;
+h2 {
+	margin-left: 10px; 
+	color:black;
+	margin-bottom:0px;
 }
 
-#pictures {
-	list-style-type: none;
+p {
+	margin-left: 10px;
+	margin-top: 0;
+	margin-bottom: 30px;
 }
+

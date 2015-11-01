@@ -17,6 +17,12 @@ $(document).ready(function () {
 
 		click: function () {
 			var imageURL = $(this).attr('src');
+			if($(this).attr('id') == 'portrait') {
+				document.getElementById('mainImage').style.width = '480px';
+			}
+			else {
+				document.getElementById('mainImage').style.width = '700px';
+			}
 			$('#mainImage').attr('src', imageURL);
 		}
 	})
